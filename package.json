@@ -2,18 +2,18 @@
   "name": "connect-4-a-team",
   "version": "1.0.0",
   "description": "Connect 4 Kata (A Team)",
-  "main": "index.js",
+  "keywords": [],
+  "homepage": "https://github.com/JulianOstmo/connect-4-a-team#readme",
+  "bugs": {
+    "url": "https://github.com/JulianOstmo/connect-4-a-team/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JulianOstmo/connect-4-a-team.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/JulianOstmo/connect-4-a-team/issues"
-  },
-  "homepage": "https://github.com/JulianOstmo/connect-4-a-team#readme",
+  "author": "",
+  "main": "index.js",
   "scripts": {
     "build": "rimraf ./dist && tsc",
     "detect-secrets": "cross-env-shell scripts/detect-secrets.sh",
@@ -24,6 +24,7 @@
     "lint:verify": "eslint . --ext .ts",
     "pre-push": "npm test",
     "precommit": "lint-staged --relative --verbose",
+    "prepare": "husky install",
     "prettier:fix": "prettier --write",
     "prettier:verify": "prettier --check \"*.{js,ts,css,md,yml,json}\"",
     "start:dev": "npx nodemon",
@@ -31,8 +32,7 @@
     "test:bdd": "jest ./features",
     "test:bdd:watch": "npm run test:bdd -- --watch",
     "test:unit": "jest ./test",
-    "test:unit:watch": "npm run test:unit -- --watch",
-    "prepare": "husky install"
+    "test:unit:watch": "npm run test:unit -- --watch"
   },
   "lint-staged": {
     "*": [
@@ -50,6 +50,8 @@
     ]
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
     "@shopify/eslint-plugin": "^42.0.3",
     "@types/eslint": "^8.4.10",
     "@types/jest": "^29.2.5",
@@ -69,6 +71,7 @@
     "nodemon": "^2.0.20",
     "prettier": "^2.8.2",
     "rimraf": "^3.0.2",
+    "sort-package-json": "^2.3.0",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.4",
     "typesync": "^0.9.2"
