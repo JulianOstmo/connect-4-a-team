@@ -16,12 +16,23 @@
 
 - [ ] Monitoring
 
-# To Do
+# Project setup
 
-- Add cookie cutter to the TS Template repo
-- Add Jest Cucumber
+- Add cookie cutter to the TS Template repo ✅
+- Add Jest Cucumber ✅
 - Add SonarCloud, Snyk, CI/CD pipeline stuff
 - Determine if Connect 4 kata should be internal or external Github
   - internal = Travis
-  - external = Github Actions
+  - external = Github Actions ✅
 - Something for smoke testing, e.g. Pact
+
+# Pomodoro 1 - mob
+
+- Write out the Domains ✅
+- Write out the Entities ✅
+- Prepare User Stories
+
+# Pomodoro 2 - mob
+
+- Fix detect-secrets
+- Prepare User Stories
