@@ -34,5 +34,6 @@
 
 # Pomodoro 2 - mob
 
-- Fix detect-secrets
+- Fix detect-secrets ✅
+- Fix soanr-scanner
 - Prepare User Stories
