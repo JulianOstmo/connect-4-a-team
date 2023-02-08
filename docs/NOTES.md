@@ -37,3 +37,8 @@
 - Fix detect-secrets ✅
 - Fix soanr-scanner
 - Prepare User Stories
+
+## Pomodoro - mob
+
+- Create BACKLOG.md
+- Prepare User Stories
