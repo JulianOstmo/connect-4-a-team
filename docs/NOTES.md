@@ -38,7 +38,17 @@
 - Fix soanr-scanner
 - Prepare User Stories
 
-## Pomodoro - mob
+## Pomodoro 3 - mob
 
 - Create BACKLOG.md
 - Prepare User Stories
+
+## Pomodoro 4 - Driver: Julian O; Navigator: Gearoid
+- User Story 1 - As a user I want to have an empty grid So that I can place my first disc 🚧
+- UAT 1.1 - Initialisation of the game todo ⚠
+
+```
+GIVEN two Players
+WHEN they start a new game
+THEN they should see an empty grid
+```
