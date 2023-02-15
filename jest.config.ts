@@ -1,6 +1,7 @@
 import { defaults } from 'jest-config';
+import type { JestConfigWithTsJest } from 'ts-jest';
 
-const config = {
+const jestConfig: JestConfigWithTsJest = {
   clearMocks: true,
   collectCoverage: true,
   verbose: true,
@@ -13,10 +14,11 @@ const config = {
     },
   },
   moduleFileExtensions: [...defaults.moduleFileExtensions, 'feature'],
+  preset: 'ts-jest',
   resetMocks: true,
   resetModules: true,
   testEnvironment: 'node',
   testMatch: [...defaults.testMatch, '**/*_steps.(ts|js)'],
 };
 
-export default config;
+export default jestConfig;
