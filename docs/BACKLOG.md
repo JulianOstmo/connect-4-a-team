@@ -10,7 +10,7 @@ WHEN they start a new game
 THEN they should see an empty grid
 ```
 
-### UAT 1.2 - Players are chosen ⚠
+### UAT 1.2 - Players are chosen 🚧
 
 ```
 GIVEN two Players

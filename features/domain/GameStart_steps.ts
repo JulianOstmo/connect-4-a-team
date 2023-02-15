@@ -1,4 +1,4 @@
-import { Given, When, Then, Fusion } from 'jest-cucumber-fusion';
+import { Given, When, Then, And, Fusion } from 'jest-cucumber-fusion';
 
 import Player from '../../src/domain/Player';
 import Game from '../../src/domain/Game';
@@ -29,6 +29,21 @@ Then('they should see an empty grid', () => {
   ];
 
   expect(game.grid()).toEqual(emptyGrid);
+});
+
+Then('one player is marked as Player 1', () => {
+  // TODO:
+  expect(false).toBe(true);
+});
+
+And('the other is marked as Player 2', () => {
+  // TODO:
+  expect(false).toBe(true);
+});
+
+And('the game displays that "Player 1 has a turn"', () => {
+  // TODO:
+  expect(false).toBe(true);
 });
 
 Fusion('GameStart.feature');
