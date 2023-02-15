@@ -5,7 +5,7 @@
   },
   // "features": {},
   // "forwardPorts": [],
-  "postCreateCommand": "bash -c 'nvm install && nvm use && npm install'",
+  "postCreateCommand": "bash -c 'git config --global --add safe.directory /workspaces/connect-4-a-team && npm install'",
   "customizations": {
     "vscode": {
       "extensions": [
