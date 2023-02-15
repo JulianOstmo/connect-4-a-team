@@ -1,8 +1,8 @@
-const { Given, When, Then, Fusion } = require('jest-cucumber-fusion');
+import { Given, When, Then, Fusion } from 'jest-cucumber-fusion';
 
-let player1;
-let player2;
-let game;
+let player1: Player;
+let player2: Player;
+let game: Game;
 
 Given('two Players', () => {
   player1 = new Player();

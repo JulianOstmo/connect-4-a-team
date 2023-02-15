@@ -1,8 +1,8 @@
 # Backlog
 
-## User Story 1 - As a user I want to have an empty grid So that I can place my first disc
+## User Story 1 - As a user I want to have an empty grid So that I can place my first disc 🚧
 
-### UAT 1.1 - Initialisation of the game ⚠
+### UAT 1.1 - Initialisation of the game 🚧
 
 ```
 GIVEN two Players

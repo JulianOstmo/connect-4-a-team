@@ -44,8 +44,21 @@
 - Prepare User Stories
 
 ## Pomodoro 4 - Driver: Julian O; Navigator: Gearoid
+
 - User Story 1 - As a user I want to have an empty grid So that I can place my first disc 🚧
 - UAT 1.1 - Initialisation of the game todo ⚠
+
+```
+GIVEN two Players
+WHEN they start a new game
+THEN they should see an empty grid
+```
+
+## Pomodoro 5 - Driver: Julian O; Navigator: Attila; Observer: Gearoid
+
+- Configuring jest cucumber fusion to work with `.ts` files, too 🚧
+- User Story 1 - As a user I want to have an empty grid So that I can place my first disc 🚧
+  - UAT 1.1 - Initialisation of the game todo 🚧
 
 ```
 GIVEN two Players

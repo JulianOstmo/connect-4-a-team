@@ -1,6 +1,6 @@
-const { defaults } = require('jest-config');
+import { defaults } from 'jest-config';
 
-module.exports = {
+const config = {
   clearMocks: true,
   collectCoverage: true,
   verbose: true,
@@ -16,5 +16,7 @@ module.exports = {
   resetMocks: true,
   resetModules: true,
   testEnvironment: 'node',
-  testMatch: [...defaults.testMatch, '**/*_steps.js'],
+  testMatch: [...defaults.testMatch, '**/*_steps.(ts|js)'],
 };
+
+export default config;
