@@ -33,5 +33,9 @@ describe('GIVEN a new Game', () => {
     test('THEN Player 1 should be assigned 1 as their number', () => {
       expect(game.player1).toBe(player1);
     });
+
+    test('THEN Player 2 should be assigned 2 as their number', () => {
+      expect(game.player2).toBe(player2);
+    });
   });
 });

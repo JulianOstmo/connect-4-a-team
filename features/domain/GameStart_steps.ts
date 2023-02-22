@@ -36,8 +36,7 @@ Then('one player is marked as Player 1', () => {
 });
 
 And('the other is marked as Player 2', () => {
-  // TODO:
-  expect(false).toBe(true);
+  expect(game.player2).toBe(player2);
 });
 
 And('the game displays that "Player 1 has a turn"', () => {
