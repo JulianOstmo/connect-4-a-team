@@ -17,7 +17,7 @@ GIVEN two Players
 WHEN they start a new game
 THEN one player is marked as Player 1
 AND the other is marked as Player 2
-AND the game displays that 'Player 1 has a turn'
+AND then it is Player 1 turn
 ```
 
 ## User Story 2 - As a player I want choose where I place my disc So that I can place it on the grid
@@ -31,7 +31,6 @@ WHEN they take their turn
 THEN they choose a position
 AND place their disc on the grid
 AND then the turn alternates to Player 2
-AND the game displays that 'Player 2 has a turn'
 ```
 
 ### UAT2.2 - Player 2 takes their turn with one disc already on the grid ⚠
@@ -44,7 +43,6 @@ THEN they choose a position
 AND they choose same column
 AND place their disc on the grid
 AND then the turn alternates to Player 1
-AND the game displays that 'Player 1 has a turn'
 ```
 
 ### UAT2.3 - Player 1 takes their turn and places their disc on a full column ⚠

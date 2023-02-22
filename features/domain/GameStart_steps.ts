@@ -39,9 +39,8 @@ And('the other is marked as Player 2', () => {
   expect(game.player2).toBe(player2);
 });
 
-And('the game displays that "Player 1 has a turn"', () => {
-  // TODO:
-  expect(false).toBe(true);
+And('then it is Player 1 turn', () => {
+  expect(game.currentPlayer).toBe(player1);
 });
 
 Fusion('GameStart.feature');
