@@ -10,7 +10,7 @@ WHEN they start a new game
 THEN they should see an empty grid
 ```
 
-### UAT 1.2 - Players are chosen 🚧
+### UAT 1.2 - Players are chosen ✅
 
 ```
 GIVEN two Players
@@ -22,14 +22,14 @@ AND then it is Player 1 turn
 
 ## User Story 2 - As a player I want choose where I place my disc So that I can place it on the grid
 
-### UAT 2.1 - Player 1 takes the first turn ⚠
+### UAT 2.1 - Player 1 takes the first turn 🚧
 
 ```
 GIVEN an empty grid
 AND Player 1 has their turn
-WHEN they take their turn
-THEN they choose a position
-AND place their disc on the grid
+THEN they choose a column
+AND they take their turn
+THEN they place their disc on the grid
 AND then the turn alternates to Player 2
 ```
 
@@ -38,9 +38,9 @@ AND then the turn alternates to Player 2
 ```
 GIVEN a grid with one disc
 AND Player 2 has their turn
-WHEN they take their turn
-THEN they choose a position
-AND they choose same column
+THEN they choose a column
+AND they take their turn
+THEN they choose same column
 AND place their disc on the grid
 AND then the turn alternates to Player 1
 ```
@@ -50,9 +50,9 @@ AND then the turn alternates to Player 1
 ```
 GIVEN a grid with discs
 AND Player 1 has their turn
-WHEN they take their turn
-THEN they choose a position
-AND they choose a column with no space
+THEN they choose a column
+AND they take their turn
+THEN they choose a column with no space
 AND game displays an error message 'Column Full!'
 AND the turn remains with them
 ```

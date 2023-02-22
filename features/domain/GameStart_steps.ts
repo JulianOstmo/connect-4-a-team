@@ -28,7 +28,7 @@ Then('they should see an empty grid', () => {
     [0, 0, 0, 0, 0, 0, 0],
   ];
 
-  expect(game.grid()).toEqual(emptyGrid);
+  expect(game.grid).toEqual(emptyGrid);
 });
 
 Then('one player is marked as Player 1', () => {

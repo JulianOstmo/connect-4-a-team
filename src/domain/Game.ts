@@ -20,7 +20,7 @@ export default class Game {
     this._currentPlayer = player1;
   }
 
-  grid(): number[][] {
+  get grid(): number[][] {
     return this._grid;
   }
 
@@ -34,5 +34,9 @@ export default class Game {
 
   get currentPlayer(): Player {
     return this._currentPlayer;
+  }
+
+  public takeTurn() {
+    // TODO:
   }
 }

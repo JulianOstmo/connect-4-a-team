@@ -25,7 +25,7 @@ describe('GIVEN a new Game', () => {
         [0, 0, 0, 0, 0, 0, 0],
       ];
 
-      expect(game.grid()).toEqual(emptyGrid);
+      expect(game.grid).toEqual(emptyGrid);
     });
   });
 
@@ -40,6 +40,21 @@ describe('GIVEN a new Game', () => {
 
     test('THEN Player 1 has their turn', () => {
       expect(game.currentPlayer).toBe(player1);
+    });
+  });
+
+  describe('WHEN Player 1 takes the first turn', () => {
+    test('THEN thier disc should be added to the grid', () => {
+      game.takeTurn(0);
+
+      expect(game.grid).toEqual([
+        [0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+      ]);
     });
   });
 });

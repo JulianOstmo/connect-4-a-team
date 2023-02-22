@@ -131,26 +131,26 @@
 
 ## Pomodoro 10 - Driver: Gearóid; Navigator: Julian Ostmo; Observer: Attila
 
-- User Story 1 - As a user I want to have an empty grid So that I can place my first disc 🚧
+- User Story 1 - As a user I want to have an empty grid So that I can place my first disc ✅
 
-  - UAT 1.2 - Players are chosen 🚧
+  - UAT 1.2 - Players are chosen ✅
     ```
     GIVEN two Players ✅
     WHEN they start a new game ✅
     THEN one player is marked as Player 1 ✅
     AND the other is marked as Player 2 ✅
-    And then it is Player 1 turn 🚧
+    And then it is Player 1 turn ✅
     ```
 
 - User Story 2 - As a player I want choose where I place my disc So that I can place it on the grid
 
-  - UAT 2.1 - Player 1 takes the first turn ⚠
+  - UAT 2.1 - Player 1 takes the first turn 🚧
 
     ```
-    GIVEN an empty grid
-    AND Player 1 has their turn
-    WHEN they take their turn
-    THEN they choose a position
-    AND place their disc on the grid
+    GIVEN an empty grid ✅
+    AND Player 1 has their turn ✅
+    THEN they choose a column ✅
+    AND they take their turn 🚧
+    THEN they place their disc on the grid
     AND then the turn alternates to Player 2
     ```
