@@ -101,3 +101,57 @@
     AND the other is marked as Player 2
     AND the game displays that 'Player 1 has a turn'
     ```
+
+## Pomodoro 9 - Driver: Julian Ostmo; Navigator: Gearóid; Observer: Attila
+
+- User Story 1 - As a user I want to have an empty grid So that I can place my first disc 🚧
+
+  - UAT 1.2 - Players are chosen 🚧
+    ```
+    GIVEN two Players ✅
+    WHEN they start a new game ✅
+    THEN one player is marked as Player 1 ✅
+    AND the other is marked as Player 2 ⚠
+    AND the game displays that 'Player 1 has a turn' ⚠
+    ```
+
+- User Story 2 - As a player I want choose where I place my disc So that I can place it on the grid
+
+  - UAT 2.1 - Player 1 takes the first turn ⚠
+
+    ```
+    GIVEN an empty grid
+    AND Player 1 has their turn
+    WHEN they take their turn
+    THEN they choose a position
+    AND place their disc on the grid
+    AND then the turn alternates to Player 2
+    AND the game displays that 'Player 2 has a turn'
+    ```
+
+## Pomodoro 10 - Driver: Gearóid; Navigator: Julian Ostmo; Observer: Attila
+
+- User Story 1 - As a user I want to have an empty grid So that I can place my first disc 🚧
+
+  - UAT 1.2 - Players are chosen 🚧
+    ```
+    GIVEN two Players ✅
+    WHEN they start a new game ✅
+    THEN one player is marked as Player 1 ✅
+    AND the other is marked as Player 2 🚧
+    AND the game displays that 'Player 1 has a turn' ⚠
+    ```
+
+- User Story 2 - As a player I want choose where I place my disc So that I can place it on the grid
+
+  - UAT 2.1 - Player 1 takes the first turn ⚠
+
+    ```
+    GIVEN an empty grid
+    AND Player 1 has their turn
+    WHEN they take their turn
+    THEN they choose a position
+    AND place their disc on the grid
+    AND then the turn alternates to Player 2
+    AND the game displays that 'Player 2 has a turn'
+    ```

@@ -5,10 +5,12 @@ jest.mock('../../src/domain/Player');
 
 describe('GIVEN a new Game', () => {
   let game: Game;
+  let player1: Player;
+  let player2: Player;
 
   beforeEach(() => {
-    const player1: Player = new Player();
-    const player2: Player = new Player();
+    player1 = new Player(1);
+    player2 = new Player(2);
     game = new Game(player1, player2);
   });
 
@@ -24,6 +26,12 @@ describe('GIVEN a new Game', () => {
       ];
 
       expect(game.grid()).toEqual(emptyGrid);
+    });
+  });
+
+  describe('WHEN the game begins', () => {
+    test('THEN Player 1 should be assigned 1 as their number', () => {
+      expect(game.player1).toBe(player1);
     });
   });
 });

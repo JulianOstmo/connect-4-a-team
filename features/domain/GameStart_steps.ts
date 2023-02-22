@@ -10,8 +10,8 @@ let player2: Player;
 let game: Game;
 
 Given('two Players', () => {
-  player1 = new Player();
-  player2 = new Player();
+  player1 = new Player(1);
+  player2 = new Player(2);
 });
 
 When('they start a new game', () => {
@@ -32,8 +32,7 @@ Then('they should see an empty grid', () => {
 });
 
 Then('one player is marked as Player 1', () => {
-  // TODO:
-  expect(false).toBe(true);
+  expect(game.player1).toBe(player1);
 });
 
 And('the other is marked as Player 2', () => {
